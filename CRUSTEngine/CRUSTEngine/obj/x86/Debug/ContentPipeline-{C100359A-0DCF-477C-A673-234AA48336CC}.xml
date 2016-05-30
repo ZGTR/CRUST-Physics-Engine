@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Components\Blue.png</Source>
+      <Name>Components\Blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Blue.xnb</Output>
+      <Time>2013-03-01T21:53:34.6777468+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Brown.jpg</Source>
+      <Name>Components\Brown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Brown.xnb</Output>
+      <Time>2013-03-01T21:53:34.6807469+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Green.jpg</Source>
+      <Name>Components\Green</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Green.xnb</Output>
+      <Time>2013-03-01T21:53:34.6827471+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\LightYellow.jpg</Source>
+      <Name>Components\LightYellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\LightYellow.xnb</Output>
+      <Time>2013-03-01T21:53:34.6847472+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Orange.jpg</Source>
+      <Name>Components\Orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Orange.xnb</Output>
+      <Time>2013-03-01T21:53:34.6877473+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Pink.jpg</Source>
+      <Name>Components\Pink</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Pink.xnb</Output>
+      <Time>2013-03-01T21:53:34.6917476+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Purple.jpg</Source>
+      <Name>Components\Purple</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Purple.xnb</Output>
+      <Time>2013-03-01T21:53:34.6937477+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Red.jpg</Source>
+      <Name>Components\Red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Red.xnb</Output>
+      <Time>2013-03-01T21:53:34.6957478+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Transparent.png</Source>
+      <Name>Components\Transparent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Transparent.xnb</Output>
+      <Time>2013-03-01T21:53:47.8975029+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\White.png</Source>
+      <Name>Components\White</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\White.xnb</Output>
+      <Time>2013-03-01T21:53:53.7078352+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Components\Yellow.jpg</Source>
+      <Name>Components\Yellow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Components\Yellow.xnb</Output>
+      <Time>2013-03-01T21:53:34.698748+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BasicBackGround.png</Source>
+      <Name>CTR\BasicBackGround</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BasicBackGround.xnb</Output>
+      <Time>2012-05-01T22:57:12+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BlowerEast.png</Source>
+      <Name>CTR\BlowerEast</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BlowerEast.xnb</Output>
+      <Time>2013-02-04T12:06:54.1347176+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BlowerNorth.png</Source>
+      <Name>CTR\BlowerNorth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BlowerNorth.xnb</Output>
+      <Time>2013-02-04T12:06:54.1447182+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BlowerSouth.png</Source>
+      <Name>CTR\BlowerSouth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BlowerSouth.xnb</Output>
+      <Time>2013-02-04T12:06:54.1557188+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BlowerWest.png</Source>
+      <Name>CTR\BlowerWest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BlowerWest.xnb</Output>
+      <Time>2013-02-04T12:06:54.1217168+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Border1.png</Source>
+      <Name>CTR\Border1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Border1.xnb</Output>
+      <Time>2013-04-26T00:01:15.0884435+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Border2.png</Source>
+      <Name>CTR\Border2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Border2.xnb</Output>
+      <Time>2013-04-26T00:05:42.6207455+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Border3.png</Source>
+      <Name>CTR\Border3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Border3.xnb</Output>
+      <Time>2013-04-26T00:07:40.6184946+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BubbleWithCandy.png</Source>
+      <Name>CTR\BubbleWithCandy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BubbleWithCandy.xnb</Output>
+      <Time>2012-05-01T14:33:33+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BubbleWithoutCandy.png</Source>
+      <Name>CTR\BubbleWithoutCandy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BubbleWithoutCandy.xnb</Output>
+      <Time>2013-02-07T05:04:34.3504061+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\BubbleWithoutCandyOld.png</Source>
+      <Name>CTR\BubbleWithoutCandyOld</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\BubbleWithoutCandyOld.xnb</Output>
+      <Time>2012-05-01T14:33:33+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Bump.png</Source>
+      <Name>CTR\Bump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Bump.xnb</Output>
+      <Time>2013-01-30T02:23:11.6546324+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Frog.png</Source>
+      <Name>CTR\Frog</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Frog.xnb</Output>
+      <Time>2013-01-30T02:23:11.6516322+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\FrogWithBase.png</Source>
+      <Name>CTR\FrogWithBase</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\FrogWithBase.xnb</Output>
+      <Time>2013-01-30T02:49:09.9037591+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\FrogWithCookie.png</Source>
+      <Name>CTR\FrogWithCookie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\FrogWithCookie.xnb</Output>
+      <Time>2013-02-07T20:32:51.8210862+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\FrogWithoutCookie.png</Source>
+      <Name>CTR\FrogWithoutCookie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\FrogWithoutCookie.xnb</Output>
+      <Time>2013-02-07T20:44:45.0448802+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Level1.jpg</Source>
+      <Name>CTR\Level1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Level1.xnb</Output>
+      <Time>2013-02-03T04:59:28.2091674+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Level2.png</Source>
+      <Name>CTR\Level2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Level2.xnb</Output>
+      <Time>2013-02-13T19:15:41.9661649+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Level2Old.png</Source>
+      <Name>CTR\Level2Old</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Level2Old.xnb</Output>
+      <Time>2013-02-03T04:59:28.1791657+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Pin.png</Source>
+      <Name>CTR\Pin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Pin.xnb</Output>
+      <Time>2013-02-04T12:59:17.3344983+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\PinRing.png</Source>
+      <Name>CTR\PinRing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\PinRing.xnb</Output>
+      <Time>2013-02-04T12:59:17.3304981+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\PlainWhite.png</Source>
+      <Name>CTR\PlainWhite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\PlainWhite.xnb</Output>
+      <Time>2012-05-01T23:16:37+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\RealRope.png</Source>
+      <Name>CTR\RealRope</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\RealRope.xnb</Output>
+      <Time>2013-02-03T00:21:39.9497975+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket.png</Source>
+      <Name>CTR\Rocket</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket.xnb</Output>
+      <Time>2013-02-03T19:46:53.0527488+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket0.png</Source>
+      <Name>CTR\Rocket0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket0.xnb</Output>
+      <Time>2013-02-03T20:31:43.0606084+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket1.png</Source>
+      <Name>CTR\Rocket1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket1.xnb</Output>
+      <Time>2013-02-03T20:31:43.0766093+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket2.png</Source>
+      <Name>CTR\Rocket2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket2.xnb</Output>
+      <Time>2013-02-03T20:31:43.0926102+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket3.png</Source>
+      <Name>CTR\Rocket3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket3.xnb</Output>
+      <Time>2013-02-03T20:31:43.0866099+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket4.png</Source>
+      <Name>CTR\Rocket4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket4.xnb</Output>
+      <Time>2013-02-03T20:31:43.0686089+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket5.png</Source>
+      <Name>CTR\Rocket5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket5.xnb</Output>
+      <Time>2013-02-03T20:31:43.106611+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket6.png</Source>
+      <Name>CTR\Rocket6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket6.xnb</Output>
+      <Time>2013-02-03T20:31:43.0996106+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Rocket7.png</Source>
+      <Name>CTR\Rocket7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Rocket7.xnb</Output>
+      <Time>2013-02-03T20:31:43.1146115+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\RocketOld.png</Source>
+      <Name>CTR\RocketOld</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\RocketOld.xnb</Output>
+      <Time>2013-02-03T15:10:57.8356908+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\RoundedWhiteRectangle.png</Source>
+      <Name>CTR\RoundedWhiteRectangle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\RoundedWhiteRectangle.xnb</Output>
+      <Time>2013-02-03T00:17:51.4387275+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\RoundedWhiteRectangle2.png</Source>
+      <Name>CTR\RoundedWhiteRectangle2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\RoundedWhiteRectangle2.xnb</Output>
+      <Time>2013-02-03T00:14:33.8334251+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\Transparent.png</Source>
+      <Name>CTR\Transparent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\Transparent.xnb</Output>
+      <Time>2013-01-30T17:09:23.5981822+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\VisualWater.png</Source>
+      <Name>CTR\VisualWater</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\VisualWater.xnb</Output>
+      <Time>2012-05-01T23:25:28+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\WaterWave.png</Source>
+      <Name>CTR\WaterWave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\WaterWave.xnb</Output>
+      <Time>2012-05-01T21:53:17+03:00</Time>
+    </Item>
+    <Item>
+      <Source>CTR\White.png</Source>
+      <Name>CTR\White</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\CTR\White.xnb</Output>
+      <Time>2013-01-30T17:32:08.8411957+03:00</Time>
+    </Item>
+    <Item>
+      <Source>MouseTexture.png</Source>
+      <Name>MouseTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\MouseTexture.xnb</Output>
+      <Time>2012-02-01T02:43:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Actions\ActionsBG.png</Source>
+      <Name>Notifications\Actions\ActionsBG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Actions\ActionsBG.xnb</Output>
+      <Time>2013-04-13T19:45:18.1076538+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Actions\BB.png</Source>
+      <Name>Notifications\Actions\BB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Actions\BB.xnb</Output>
+      <Time>2013-04-13T18:47:51.1364984+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Actions\BP.png</Source>
+      <Name>Notifications\Actions\BP</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Actions\BP.xnb</Output>
+      <Time>2013-04-13T18:47:51.1414986+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Actions\RC.png</Source>
+      <Name>Notifications\Actions\RC</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Actions\RC.xnb</Output>
+      <Time>2013-04-13T18:47:51.1494991+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Actions\RP.png</Source>
+      <Name>Notifications\Actions\RP</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Actions\RP.xnb</Output>
+      <Time>2013-04-13T18:47:51.1454989+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Actions\VA.png</Source>
+      <Name>Notifications\Actions\VA</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Actions\VA.xnb</Output>
+      <Time>2013-04-13T18:47:51.1554995+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Notif01.png</Source>
+      <Name>Notifications\Notif01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Notif01.xnb</Output>
+      <Time>2013-02-07T04:14:25.6453181+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Notifications\Notif02.png</Source>
+      <Name>Notifications\Notif02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Notifications\Notif02.xnb</Output>
+      <Time>2013-02-07T04:21:20.7080583+03:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleEngine\circle.png</Source>
+      <Name>ParticleEngine\circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\ParticleEngine\circle.xnb</Output>
+      <Time>2012-05-02T04:26:49+03:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleEngine\diamond.png</Source>
+      <Name>ParticleEngine\diamond</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\ParticleEngine\diamond.xnb</Output>
+      <Time>2012-05-02T04:26:49+03:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleEngine\star.png</Source>
+      <Name>ParticleEngine\star</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\ParticleEngine\star.xnb</Output>
+      <Time>2012-05-02T04:26:49+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\CircleTextureYellow11.png</Source>
+      <Name>RigidsTextures\CircleTextureYellow11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\CircleTextureYellow11.xnb</Output>
+      <Time>2012-02-05T04:14:10+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\CircleTextureYellow111.png</Source>
+      <Name>RigidsTextures\CircleTextureYellow111</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\CircleTextureYellow111.xnb</Output>
+      <Time>2012-01-12T13:53:16+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\DefaultBox.png</Source>
+      <Name>RigidsTextures\DefaultBox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\DefaultBox.xnb</Output>
+      <Time>2012-05-02T00:26:55+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\DefaultBox1.png</Source>
+      <Name>RigidsTextures\DefaultBox1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\DefaultBox1.xnb</Output>
+      <Time>2012-02-05T16:42:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\DefaultBox11.png</Source>
+      <Name>RigidsTextures\DefaultBox11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\DefaultBox11.xnb</Output>
+      <Time>2012-05-01T23:46:42+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\DefaultCircle.png</Source>
+      <Name>RigidsTextures\DefaultCircle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\DefaultCircle.xnb</Output>
+      <Time>2012-04-30T19:06:37+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\drycrackedboards-colormap.png</Source>
+      <Name>RigidsTextures\drycrackedboards-colormap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\drycrackedboards-colormap.xnb</Output>
+      <Time>2012-04-30T22:00:55+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\RectangleTextureRed111.png</Source>
+      <Name>RigidsTextures\RectangleTextureRed111</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\RectangleTextureRed111.xnb</Output>
+      <Time>2012-01-12T13:40:00+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\RectangleTextureRed1111.png</Source>
+      <Name>RigidsTextures\RectangleTextureRed1111</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\RectangleTextureRed1111.xnb</Output>
+      <Time>2012-04-30T22:00:55+03:00</Time>
+    </Item>
+    <Item>
+      <Source>RigidsTextures\RectangleTextureRed11111.png</Source>
+      <Name>RigidsTextures\RectangleTextureRed11111</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\RigidsTextures\RectangleTextureRed11111.xnb</Output>
+      <Time>2012-04-30T22:00:55+03:00</Time>
+    </Item>
+    <Item>
+      <Source>SmartTags\BoxSmartTag.png</Source>
+      <Name>SmartTags\BoxSmartTag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\SmartTags\BoxSmartTag.xnb</Output>
+      <Time>2012-02-05T01:45:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>SmartTags\BoxSmartTag1.png</Source>
+      <Name>SmartTags\BoxSmartTag1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\SmartTags\BoxSmartTag1.xnb</Output>
+      <Time>2012-01-31T16:37:32+03:00</Time>
+    </Item>
+    <Item>
+      <Source>SmartTags\CenterSmartTag.png</Source>
+      <Name>SmartTags\CenterSmartTag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\SmartTags\CenterSmartTag.xnb</Output>
+      <Time>2012-02-01T02:37:18+03:00</Time>
+    </Item>
+    <Item>
+      <Source>SmartTags\CenterSmartTag2.png</Source>
+      <Name>SmartTags\CenterSmartTag2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\SmartTags\CenterSmartTag2.xnb</Output>
+      <Time>2012-01-31T16:35:24+03:00</Time>
+    </Item>
+    <Item>
+      <Source>Music\Cut The Rope.mp3</Source>
+      <Name>Music\Cut The Rope</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Music\Cut The Rope.xnb</Output>
+      <Extra>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\Music\Cut The Rope.wma</Extra>
+      <Time>2013-02-12T15:43:19.3705186+03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{C100359A-0DCF-477C-A673-234AA48336CC}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngineContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Projects\CRUST\Version Now\CRUSTEngine\CRUSTEngine\CRUSTEngine\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-04-18T23:07:42.4106183+03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

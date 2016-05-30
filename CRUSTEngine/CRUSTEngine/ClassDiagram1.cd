@@ -1,0 +1,1360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CRUSTEngine.Database.DatabaseHandler" Collapsed="true">
+    <Position X="42" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\DatabaseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.Database.DatabaseLinqDataContext" Collapsed="true">
+    <Position X="43.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAgAAAAAAAAAASAAAAAAAEgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.Database.PlayabilityTest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgBiABABADAEAAZAwEEVAiFRjCQIESkCkCBAAAyUARA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.Database.FileToDbHandler" Collapsed="true">
+    <Position X="47.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\FileToDbHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.CRUSTLevelDesigner" Collapsed="true">
+    <Position X="36.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wSRYBKJQCu+y1cRiZGoJDO/CMm3EAUDADUKGmhJdnQ=</HashCode>
+      <FileName>FormsManipualtion\CRUSTLevelDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.Game1" Collapsed="true">
+    <Position X="29.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEQAAAAAAAwEAAAAAAAAACBAFAAAAQAAAAAAFAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.Program" Collapsed="true">
+    <Position X="36.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.Resource1" Collapsed="true">
+    <Position X="42" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAIAAAABEAAAAwAAAAAAAAAAAAAAAoA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.FormsManipualtion.CTRLevelDesigner" Collapsed="true">
+    <Position X="38.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QALGNQ0CQOAUxN4EJxGgIaRDhADMCHNCEGIjA4Cl7EY=</HashCode>
+      <FileName>FormsManipualtion\CTRLevelDesigner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.FormsManipualtion.GenSimTimeBarForm" Collapsed="true">
+    <Position X="43.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQgIBAAACKkQNIUAEqUACACQBAQIBgIAAThIwBhQJA=</HashCode>
+      <FileName>FormsManipualtion\GenSimTimeBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.FormsManipualtion.SetGrammarDialog" Collapsed="true">
+    <Position X="42" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIgAAACAAABAAAACAAAICAAQAAAAABAAAAQABBAA=</HashCode>
+      <FileName>FormsManipualtion\SetGrammarDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.FormsManipualtion.SetLevelDialog" Collapsed="true">
+    <Position X="43.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIgAAACAAABAAAAiAAAICgAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>FormsManipualtion\SetLevelDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RigidsInMotion.UIDigitaRune.UIControlsParser" Collapsed="true">
+    <Position X="40.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAIACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormsManipualtion\UIControlsParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.AuthoringTool.DesignEnhanceManager" Collapsed="true">
+    <Position X="31.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAAAAAAAAAAAAAAAAAAAAAAABAAgAAAIAAAAA=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\DesignEnhanceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.AuthoringTool.DesignerManager" Collapsed="true">
+    <Position X="33.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQIAAAgAAABAAAAAAAAAAAAAQgAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\DesignerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.AuthoringTool.MusicManager" Collapsed="true">
+    <Position X="47.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAoAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\MusicManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.AuthoringTool.ActionsNotificationManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIgAAAAAgAgABAAAAAAASAgAAAAEAAAEAAAAAIAA=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\Notifications\ActionNotificationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.AuthoringTool.NotificationManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAgAAAAAAQAAAAAAQAAAAEAAAAAAIAAA=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\Notifications\NotificationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.AuthoringTool.PreferredCompsManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAQAAgAAIAgAAAAAAAAAAAAgAAAAQAAAAQA=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\PreferredCompsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.BumpRigid" Collapsed="true">
+    <Position X="3.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAgAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponents\BumpRigid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.ServiceManager" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\ServiceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.CookieRB" Collapsed="true">
+    <Position X="12.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponents\CookieRB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.FrogRB" Collapsed="true">
+    <Position X="10.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAyAACAAAACAAgAQAEAAAAQAAAAAAAEAAAAgAAAAAQA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponents\FrogRB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.Blower.BlowerManager" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAgAAAACAQAAAAAAAAAAAAAAAAAAABEQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Blower\BlowerManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.Blower.BlowerService" Collapsed="true">
+    <Position X="15" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQSAAAACAAAAgAgAAAAIAAAAAAAAAAgAAAAEAEAAAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Blower\BlowerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Bubble.BubbleManager" Collapsed="true">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAgAAAACAQAAAAAAAAAAAAAAAAAAABEQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Bubble\BubbleManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Bubble.BubbleService" Collapsed="true">
+    <Position X="19.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCADAABECAggAAAAAACAQOABAAAAEAAIAgAAAAgQA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Bubble\BubbleService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.CatchableRopes.CatchableRopeService" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACgQEEgSAAQAAEARAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\CatchableRopes\CatchableRopeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.Rocket.RocketCarrierService" Collapsed="true">
+    <Position X="1.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAcAMAMAgCgAAAIBQAAABAAAEAAAAAAAAAAgAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketCarrierService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.Rocket.RocketsCarrierManager" Collapsed="true">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAABAAAAAAAAAAAABIAAAAABAQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketsCarrierManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Rocket.ParticleEngine.Particle" Collapsed="true">
+    <Position X="36.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAggAgAAAAAAABAAAAAAAAAEAAgBAEAAQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\ParticleEngine\Particle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Rocket.ParticleEngine.ParticleEngineCore" Collapsed="true">
+    <Position X="38.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAgACAAABAIAAAAAGAEAACAQAAAAwAAE=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\ParticleEngine\ParticleEngineCore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Rocket.RocketService" Collapsed="true">
+    <Position X="6" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAgEAAEAQBQgAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Rocket.RocketsManager" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAQAAAAAAAAAAAABAQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponents.Water.LiquidService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAEAAAgJAAlCAgAAAAAAAgAAAAgAAAAABAAA=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Water\LiquidService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.EngineManager" Collapsed="true">
+    <Position X="36.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgRAABAGACBAQ5AAAAIBAIgAQAgAAAAAIAgAIiAAIAQ=</HashCode>
+      <FileName>ProjectEngines\EngineManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GameManager" Collapsed="true">
+    <Position X="31.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ProjectEngines\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.StaticData" Collapsed="true">
+    <Position X="29.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>igEIAgAEg0DIEAxA00MAZAAQxAEEFCjCQnhMYMCAoWA=</HashCode>
+      <FileName>ProjectEngines\StaticData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.BasicBackGround" Collapsed="true">
+    <Position X="21.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\BasicBackGround.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.ColorsProvider" Collapsed="true">
+    <Position X="47.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAwAAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\ColorsProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Visual2D" Collapsed="true">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAIAADAAAQgAAIAAAAEAAAAAAAAAABAAAABAIBIA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Visual2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Visual2DRigid" Collapsed="true">
+    <Position X="7" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Visual2DRigid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Visual2DRotatable" Collapsed="true">
+    <Position X="7" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Visual2DRotatable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Managers.DefaultAdder" Collapsed="true">
+    <Position X="45.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAhAAAAAAAAAAQIAAAABAAEAAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Managers\DefaultAdder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Managers.MouseManagers.MouseAdder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAIAAgBAAhCkEAAGAAAASggAQRgAAAgABAEgAASAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Managers\MouseManagers\MouseAdder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Managers.MouseManagers.MouseManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQQAABBCCAIAAgABAAAABgAAhAACABAAAAAAAICBAAE=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Managers\MouseManagers\MouseManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Managers.MouseManagers.MouseResizeManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAEJgAQAkACMCGACAAAwAQQATAAAAACAAAFhAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\Managers\MouseManagers\MouseResizeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.HelperModules.CursorHelper" Collapsed="true">
+    <Position X="40.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\CursorHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.HelperModules.FilesHelperModule" Collapsed="true">
+    <Position X="45.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAwAAAAAA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\FilesHelperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.HelperModules.GenericHelperModule" Collapsed="true">
+    <Position X="33.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAIAAAAABkAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\GenericHelperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.HelperModules.MathHelperModule" Collapsed="true">
+    <Position X="36.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCAAAAICAAAggAAEsAAAAAAAUGAAAAAAEAAAAEAQAQg=</HashCode>
+      <FileName>ProjectEngines\HelperModules\MathHelperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.HelperModules.RigidsHelperModule" Collapsed="true">
+    <Position X="43.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABBAAAAAAAAAAIAAAAAAAAAAAABAAAAEAAAAABA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\RigidsHelperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.HelperModules.TextureManager" Collapsed="true">
+    <Position X="35" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgACAAAAAAAAAAAEAAAAAAAsAgEAAA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.MaterialManager" Collapsed="true">
+    <Position X="35" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\MaterialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Matrix2" Collapsed="true">
+    <Position X="38.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQACAAAAAAABAAAAIAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\Matrix2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.Action" Collapsed="true">
+    <Position X="21.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\Action.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.BlowerPress" Collapsed="true">
+    <Position X="18.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAE=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\BlowerPress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.RocketPress" Collapsed="true">
+    <Position X="20.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAgAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\RocketPress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.RopeCut" Collapsed="true">
+    <Position X="22.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAgAEAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\RopeCut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.TerminateBranch" Collapsed="true">
+    <Position X="25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\TerminateBranch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.VoidAction" Collapsed="true">
+    <Position X="27.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\VoidAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Actions.BubblePinch" Collapsed="true">
+    <Position X="16" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAgAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\BubblePinch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Components.Component" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.CatchableRope" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\CatchableRope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.Cookie" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Cookie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.LevelGenHelperModule" Collapsed="true">
+    <Position X="29.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\LevelGenHelperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.Comps.Blower" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Blower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.Comps.Cracker" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Cracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.Comps.Rocket" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Rocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Components.Comps.Bubble" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Bubble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Components.Comps.Bump" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Bump.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Components.Comps.Frog" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Frog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Components.Comps.Rope" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Rope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Components.Comps.Water" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\Comps\Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EngineShotsManager" Collapsed="true">
+    <Position X="38.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAACAAACAAAAAAAAQAAAAIAAAEAAAAAQ=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\EngineShotsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.EngineStateManager" Collapsed="true">
+    <Position X="40.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAC4AAEAAAAAAAACA5CAAUBgIoAgAAAgQEACAAAAJA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\EngineStateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.ActionsGenerator" Collapsed="true">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAIAAAAAAAAEAAAAAAAAAAAAAAAIAABAAgAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\ActionsGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.LevelBuilder" Collapsed="true">
+    <Position X="45.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\LevelBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.ObjectSerializer" Collapsed="true">
+    <Position X="35" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAACACBIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PCGHelpers\ObjectSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.StringHelper" Collapsed="true">
+    <Position X="31.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PCGHelpers\StringHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.GenManagers.EntraGenManager" Collapsed="true">
+    <Position X="29.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\GenManagers\EntraGenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.GenManagers.EntraPathGenManager" Collapsed="true">
+    <Position X="35" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\GenManagers\EntraPathGenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.GenManagers.EntraPlusGenManager" Collapsed="true">
+    <Position X="38.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\GenManagers\EntraPlusGenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.GenManagers.GenManager" Collapsed="true">
+    <Position X="35" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\GenManagers\GenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.GenManagers.GenSimManager" Collapsed="true">
+    <Position X="42" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAgAAAAAAAAAQAAAgAAEAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\GenManagers\GenSimManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.RYSEGenManager" Collapsed="true">
+    <Position X="38.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAJACAABAQCAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\GenManagers\RYSEGenManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.Generators.LevelGenerator" Collapsed="true">
+    <Position X="47.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAAAACACAAAAAACAAAAAAgEAABAgAAEAQAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Generators\LevelGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPath.EntraPathAgent" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCCIAAgIUIBERiBAAIBAAgCAAAAgAiIAIiAAAI=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\EntraPathAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPath.EntraPathManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEIAAgAQAAgBAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\EntraPathManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPath.PathForm" Collapsed="true">
+    <Position X="40.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACIAAAEACAAAACCAAAAAAAAAAAAEBAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\PathForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPath.PolyNode" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAAAAAQAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\PolyNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.BlowerEntityPoly" Collapsed="true">
+    <Position X="16" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQQAAQAAAAAAAACAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\BlowerEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.BubbleEntityPoly" Collapsed="true">
+    <Position X="18.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQAAAAQAAACAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\BubbleEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.BumperEntityPoly" Collapsed="true">
+    <Position X="20.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAIAEAQAAACQAAAQABQAABAACAAACAAAACQAAIAAAE=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\BumperEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.CompEntityPoly" Collapsed="true">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAQAAAQAAAAAAAACgAACAAAAAAAAIAEAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\CompEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.FrogEntityPoly" Collapsed="true">
+    <Position X="22.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQAAAAAAAACAAACAAAAAAAAIAEAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\FrogEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.RocketEntityPoly" Collapsed="true">
+    <Position X="25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQAAAAAAAACAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\RocketEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.CompsEntities.RopeEntityPoly" Collapsed="true">
+    <Position X="27.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQAAAAAAAACAAACAAAAAAAAIAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\RopeEntityPoly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraAgent.CompEntityPolys.CompsEntities" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CompEntityPolys.EntityBuilder" Collapsed="true">
+    <Position X="42" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAKAAgAAAAAAAAAwAAAQAAAAAIAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\EntityBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.EntraAgentSimple" Collapsed="true">
+    <Position X="43.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zAARAAgAYAAQAAEQAABBwgAAAACgJAAAAAAQABBABAU=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraAgentSimple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.EntraManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAABAAIAgEAAAoBAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.EntraResult" Collapsed="true">
+    <Position X="42" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAAAAIAAAAAAAAAgAAAAAAACAgAg=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.EntraSolver" Collapsed="true">
+    <Position X="43.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAEAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.ClockwiseSorter" Collapsed="true">
+    <Position X="42" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAFAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\ClockwiseSorter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.PolysHelper" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAABAQAAAIAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\PolysHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Gui.EntraDrawer" Collapsed="true">
+    <Position X="45.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAQQQCQQMAAiIAIEAIAAAAAKKAAAAEAACAEA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\EntraDrawer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Gui.EntraForm" Collapsed="true">
+    <Position X="47.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAACAAAgAABCGAAAAGCAAAAAAACAAAAABAAAQ=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\EntraForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Handlers.AreaCompPolyHandler" Collapsed="true">
+    <Position X="38.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAEIAgAAEBGAghIAAgAAAAAQAEAABARAIAggAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\AreaCompPolyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Handlers.BumpersHandler" Collapsed="true">
+    <Position X="40.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAAAAgEAAAAIACAAAAIAgAAgAASAAABAAAAAgAAQ=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\BumpersHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Handlers.DefinitiveCompPolyHandler" Collapsed="true">
+    <Position X="47.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAAAgIAgAAAAEAAAAQAAACAAAAAQAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\DefinitiveCompPolyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Handlers.ProjectionHandler" Collapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAgQQAAAgABkAgIAAAAkAABgCAAAABAAAAAIAAAAAEA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\ProjectionHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Handlers.RocketsHandler" Collapsed="true">
+    <Position X="47.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAABAAAIAAAIAAAAAAAAAAAAAAICAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\RocketsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.PolysLogging.APPair" Collapsed="true">
+    <Position X="36.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\PolysLogging\APPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.PolysLogging.PolyLog" Collapsed="true">
+    <Position X="47.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAABAAACAAAAAAAQEAQAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\PolysLogging\PolyLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.PolysLogging.PolysLogger" Collapsed="true">
+    <Position X="33.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\PolysLogging\PolysLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlus.EntraPlusUsageManager" Collapsed="true">
+    <Position X="40.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIEAAEAAAAAAACgMBAAAAAICAIAAAAEAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlus\EntraPlusUsageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.ActionTimePair" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\ActionTimePair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.CATimePair" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\CATimePair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.CompTimePair" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\CompTimePair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GenSimAgent" Collapsed="true">
+    <Position X="36.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggCAFEIILAEAIAGECCEMgYySiEIIQAhBBgFTgFQQygI=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.UpdateActionPair" Collapsed="true">
+    <Position X="42" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQ=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GenSimAgentWrapper" Collapsed="true">
+    <Position X="38.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAEAAAAAIAAAMAAAAAAAAAAAAAIAAAAEAAAQAQAg=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimAgentWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GenSimHelper" Collapsed="true">
+    <Position X="40.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACABAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.TLEventConverter" Collapsed="true">
+    <Position X="38.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.TLEvent" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAEAAQ=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EBlowerPlac" Collapsed="true">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.ERopePlac" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EBubblePlac" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.ERocketPlac" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EBumperPlac" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EBlowerPress" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EBubblePress" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EBumperInteraction" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EOmNomFeed" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.ERocketPress" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.ERopeCut" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.MusicBased.MPCGHelper" Collapsed="true">
+    <Position X="45.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\MusicBased\MPCGHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.ActionNode" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\ActionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.ActionsExecuterGenSim" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAQIAAAAMAAAQACAECAACIAAACAAAAAAAAAQAAkA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\ActionsExecuterGenSim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.CompsOfInterestProlog" Collapsed="true">
+    <Position X="31.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAAAAAAAAAAAIBAAAAMAAAAAAABAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\CompsOfInterestProlog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.LivePlayabilitySimulator" Collapsed="true">
+    <Position X="33.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAgAACAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\LivePlayabilitySimulator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.PlayabilitySimulatorEngineProlog" Collapsed="true">
+    <Position X="43.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAAAAAAAgAAAAAAAgAIIAEAIgQwAAAQAAACEA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\PlayabilitySimulatorEngineProlog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.RandomPlayabilityGenerator" Collapsed="true">
+    <Position X="40.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAMAAAAAACAAAAAICAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\RandomPlayabilityGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.RyseAgent" Collapsed="true">
+    <Position X="36.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAQgBCUAAUAAIAAADEBkWALQEQAQAsGCAAQgACwAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\RyseAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.RyseUsageManager" Collapsed="true">
+    <Position X="40.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEIAAAAQIEAIAAAAAABCAJAAABAAAAAAAQAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\RyseUsageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.TestModule.DensityManager" Collapsed="true">
+    <Position X="29.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAEgCAABAQAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\TestModule\DensityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PCGEngine.TestModule.DiversityManager" Collapsed="true">
+    <Position X="35" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAIACAAAIAQAABQCAAgAAAAABAACAAACAADAAAAE=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\TestModule\DiversityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.CollisionEngine.CollisionDetector" Collapsed="true">
+    <Position X="43.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACCAIFAAEAAAAAAAAAAAABAAAAAAIAEAUABAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\CollisionDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.CollisionEngine.Contact" Collapsed="true">
+    <Position X="33.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQEAAACACACAAAQACQAIAAAAAAEABkAAAAEAKDA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.CollisionEngine.ContactResolver" Collapsed="true">
+    <Position X="35" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAEAAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\ContactResolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.CollisionEngine.CollisionPlane" Collapsed="true">
+    <Position X="17.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Planes\CollisionPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Managers.CollisionManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABAAABAAAAgAQCAAAACAAAAACAQAAAAQBAgEAEAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\CollisionManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Managers.NonCollidableRigidsComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\NonCollidableRigidsComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Managers.NonCollidableRigidsPair" Collapsed="true">
+    <Position X="31.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\NonCollidableRigidsPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Managers.PlanesManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Planes\PlanesManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Managers.RigidsManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAEAAgAAABAAAFAAAAAAAAAAAICQAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Rigids\RigidsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rigids.BoxRigid" Collapsed="true">
+    <Position X="6" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYgAkABIIAAYggBAAAAAAAABAgAAAIAAAIAAAAABAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Rigids\BoxRigid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rigids.RigidBody" Collapsed="true">
+    <Position X="7" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYBQk5NCoGAYkwAQCACAkAhAHgQAs0EBEcEQATAFAE=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Rigids\RigidBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rigids.BoxRigidHardConstraint" Collapsed="true">
+    <Position X="8.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Rigids\RigidBoxHardConstraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rigids.SphereRigid" Collapsed="true">
+    <Position X="12.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwIAwAAEIAAYggAAAAEEAAAAAgAIAMAAAIAAACABAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Rigids\SphereRigid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rods.Rod" Collapsed="true">
+    <Position X="29.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAABAABAAgAAAACAAAAEAAAAgAAAAAAAAAAEAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Rods\Rod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rods.RodJoint" Collapsed="true">
+    <Position X="31.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAABAAAAAABAAAAAAAAIAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Rods\RodJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rods.RodsManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="33.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Rods\RodsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.RopeRods.RopeOfRods" Collapsed="true">
+    <Position X="35" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAgAAAAACAEAAAACAAEAABAEAAAAABAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\RopeRods\RopeOfRods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.RopeRods.RopeOfRodsManager" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAABAQ=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\RopeRods\RopeOfRodsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Services.Springs.Spring" Collapsed="true">
+    <Position X="45.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAABAAgAAAAAAAAAAAAAAAAAAEACAAAAAQAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Springs\Spring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Services.Springs.SpringService" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUCCAAAAIBECgAAAQAKAEBAAARABAgAAAAAAEAAAAQ=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Springs\SpringService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Services.Springs.SpringsManager" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAEAAAAAAAgAAAACAAAAAAAAEAAAAAAAAAgAAJAQ=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Springs\SpringsManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Services.Springs.TileSpringService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAEAABAAgAIAQAIAAAAAAAAAAAAAAAAAECACIQ=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\TileSpring\TileSpringService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Services.TileSpring.TileSpringServiceManager" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAAABAQ=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\TileSpring\TileSpringServiceManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.Starters.StarterManager" Collapsed="true">
+    <Position X="47.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAIAAAAAAAACAEAAAAAAAAIQ=</HashCode>
+      <FileName>ProjectEngines\Starters\StarterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUSTEngine.ProjectEngines.Starters.Tester" Collapsed="true">
+    <Position X="33.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBQAIAIAgAAgAKAACggAgDDAgIIAQAQYQAAgACABAA=</HashCode>
+      <FileName>ProjectEngines\Starters\Tester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CRUSTEngine.ProjectEngines.PhysicsEngine.CollisionEngine.CollisionData" Collapsed="true">
+    <Position X="29.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAgAAAAAAAAAAAAAgAQEAAAAAAAAAAAABAAI=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\CollisionEngine\CollisionDetector.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="CRUSTEngine.ProjectEngines.IUpdatableComponent" Collapsed="true">
+    <Position X="29.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\IUpdatableComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CRUSTEngine.ProjectEngines.AuthoringTool.NotificationType" Collapsed="true">
+    <Position X="42" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>ProjectEngines\AuthoringTool\Notifications\NotificationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.CTREngine.GameComponentsServices.Rocket.Direction" Collapsed="true">
+    <Position X="35" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCCABABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>ProjectEngines\CTREngine\GameComponentsServices\Rocket\Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.GraphicsEngine.TextureType" Collapsed="true">
+    <Position X="35" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEigAMGGAAICEgACAEGiIIAIBEACQIIBQAT8BwUBAIA=</HashCode>
+      <FileName>ProjectEngines\HelperModules\TextureType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.GraphicsEngine.Managers.GameModes.ManipulationGameMode" Collapsed="true">
+    <Position X="38.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAJEAQAIEABAAiAECAAIAAAkIAAAAAAAAQAAAAAAM=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\GameModes\ManipulationGameMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.GraphicsEngine.GameModes.PlayPauseMode" Collapsed="true">
+    <Position X="45.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\GameModes\PlayPauseMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.GraphicsEngine.GameModes.SessionMode" Collapsed="true">
+    <Position X="31.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ProjectEngines\GraphicsEngine\GameModes\SessionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Material" Collapsed="true">
+    <Position X="40.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAQgQAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Material.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PCGEngine.Actions.ActionType" Collapsed="true">
+    <Position X="29.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAIAAAAAAAAAAAAAAAAAIAAIACIAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Actions\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PCGEngine.EventsManager.Components.ComponentType" Collapsed="true">
+    <Position X="31.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQABAAAAIAAAAAEAAAAIAAAAAgAAAAAAACAAgAgAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\Components\ComponentType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.CookieDirection" Collapsed="true">
+    <Position X="33.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAAAAAAAAABAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\CookieDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.EntraPlay.Gui.SearchType" Collapsed="true">
+    <Position X="29.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\SearchType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.GenSim.GevaInterpreter.EventType" Collapsed="true">
+    <Position X="36.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAQICBABASAAAAAAAAAAAIAAIAAAAAAEAAAA=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PCGEngine.PlayabilityManagers.Ryse.PlayabilityCheckMode" Collapsed="true">
+    <Position X="43.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAg=</HashCode>
+      <FileName>ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\PlayabilityCheckMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Rigids.RigidType" Collapsed="true">
+    <Position X="47.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Rigids\RigidType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CRUSTEngine.ProjectEngines.PhysicsEngine.Services.Springs.SpringType" Collapsed="true">
+    <Position X="33.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ProjectEngines\PhysicsEngine\Services\Springs\SpringType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{4B090B3F-3D55-4640-B4EF-A37CE5B2411A}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRUSTEngine</RootNamespace>
+    <AssemblyName>CRUSTEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>1510bf3c-c4e9-4133-ba4a-a5fecb5579f9</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>Frog.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clipper_library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\DatabaseHandler.cs" />
+    <Compile Include="Database\DatabaseLinq1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseLinq.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Database\FileToDbHandler.cs" />
+    <Compile Include="FormsManipualtion\CRUSTLevelDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsManipualtion\CRUSTLevelDesigner.Designer.cs">
+      <DependentUpon>CRUSTLevelDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsManipualtion\CTRLevelDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsManipualtion\CTRLevelDesigner.Designer.cs">
+      <DependentUpon>CTRLevelDesigner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsManipualtion\GenSimTimeBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsManipualtion\GenSimTimeBar.Designer.cs">
+      <DependentUpon>GenSimTimeBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsManipualtion\SetGrammarDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsManipualtion\SetGrammarDialog.Designer.cs">
+      <DependentUpon>SetGrammarDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsManipualtion\SetLevelDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormsManipualtion\SetLevelDialog.Designer.cs">
+      <DependentUpon>SetLevelDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsManipualtion\UIControlsParser.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\DesignEnhanceManager.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\DesignerManager.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\MusicManager.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\Notifications\ActionNotificationManager.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\Notifications\NotificationManager.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\Notifications\NotificationType.cs" />
+    <Compile Include="ProjectEngines\AuthoringTool\PreferredCompsManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Blower\BlowerManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Blower\BlowerService.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Bubble\BubbleManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Bubble\BubbleService.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\CatchableRopes\CatchableRopeManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\CatchableRopes\CatchableRopeService.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\Direction.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\ParticleEngine\Particle.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\ParticleEngine\ParticleEngineCore.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketCarrierService.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketsCarrierManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketService.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Rocket\RocketsManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\ServiceManager.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponentsServices\Water\LiquidService.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponents\BumpRigid.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponents\CookieRB.cs" />
+    <Compile Include="ProjectEngines\CTREngine\GameComponents\FrogRB.cs" />
+    <Compile Include="ProjectEngines\EngineManager.cs" />
+    <Compile Include="ProjectEngines\GameManager.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\BasicBackGround.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\ColorsProvider.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\GameModes\ManipulationGameMode.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\GameModes\PlayPauseMode.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\GameModes\SessionMode.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Managers\DefaultAdder.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Managers\MouseManagers\MouseAdder.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Managers\MouseManagers\MouseManager.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Managers\MouseManagers\MouseResizeManager.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Visual2D.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Visual2DRigid.cs" />
+    <Compile Include="ProjectEngines\GraphicsEngine\Visual2DRotatable.cs" />
+    <Compile Include="ProjectEngines\HelperModules\CursorHelper.cs" />
+    <Compile Include="ProjectEngines\HelperModules\FilesHelperModule.cs" />
+    <Compile Include="ProjectEngines\HelperModules\GenericHelperModule.cs" />
+    <Compile Include="ProjectEngines\HelperModules\MaterialManager.cs" />
+    <Compile Include="ProjectEngines\HelperModules\MathHelperModule.cs" />
+    <Compile Include="ProjectEngines\HelperModules\RigidsHelperModule.cs" />
+    <Compile Include="ProjectEngines\HelperModules\TextureManager.cs" />
+    <Compile Include="ProjectEngines\HelperModules\TextureType.cs" />
+    <Compile Include="ProjectEngines\IUpdatableComponent.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\Action.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\ActionType.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\BlowerPress.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\BubblePinch.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\RocketPress.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\RopeCut.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\TerminateBranch.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Actions\VoidAction.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Component.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\ComponentType.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Blower.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Bubble.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Bump.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\CatchableRope.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Cookie.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Cracker.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Frog.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Rocket.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Rope.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\Comps\Water.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Components\LevelGenHelperModule.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Deleted\ConstraintSolver.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Deleted\CTREngineGEVA.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Deleted\PlayabilityEngineSimulatorGEVA.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\EngineShotsManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\EngineStateManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\ActionsGenerator.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\GenManagers\EntraGenManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\GenManagers\EntraPathGenManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\GenManagers\EntraPlusGenManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\GenManagers\GenManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\GenManagers\GenSimManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\GenManagers\RYSEGenManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\LevelBuilder.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\Generators\LevelGenerator.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PCGHelpers\ObjectSerializer.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PCGHelpers\PrologManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PCGHelpers\StringHelper.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\EntraPathAgent.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\EntraPathManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\PathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\PathForm.designer.cs">
+      <DependentUpon>PathForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\PolyNode.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\SIFT\SiftAlgo.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\SIFT\Type.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\BlowerEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\BubbleEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\BumperEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\CompEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\FrogEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\RocketEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\CompsEntities\RopeEntityPoly.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\CompEntityPolys\EntityBuilder.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraAgentSimple.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraResult.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\EntraSolver.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\EntraDrawer.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\EntraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\EntraForm.designer.cs">
+      <DependentUpon>EntraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\SearchType.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\AreaCompPolyHandler.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\BumpersHandler.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\ClockwiseSorter.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\CookieDirection.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\DefinitiveCompPolyHandler.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\PolysHelper.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\ProjectionHandler.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Handlers\RocketsHandler.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\PolysLogging\APPair.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\PolysLogging\PolyLog.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\PolysLogging\PolysLogger.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlus\EntraPlusUsageManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\ActionTimePair.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\CATimePair.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\CompTimePair.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimAgent.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimAgentWrapper.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GenSimHelper.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\GenSim\GevaInterpreter\EventsPackage.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\MusicBased\MPCGHelper.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\ActionNode.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\ActionsExecuterGenSim.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\CompsOfInterestProlog.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\LivePlayabilitySimulator.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\PlayabilityCheckMode.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\PlayabilitySimulatorEngineProlog.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\RandomPlayabilityGenerator.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\RyseAgent.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\PlayabilityManagers\Ryse\RyseUsageManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\TestModule\DensityManager.cs" />
+    <Compile Include="ProjectEngines\PCGEngine\TestModule\DiversityManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\CollisionDetector.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\CollisionManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\Contact.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\ContactResolver.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\Matrix2.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\NonCollidableRigidsComparer.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\CollisionEngine\NonCollidableRigidsPair.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Material.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Planes\CollisionPlane.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Planes\PlanesManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Rigids\BoxRigid.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Rigids\RigidBody.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Rigids\RigidBoxHardConstraint.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Rigids\RigidsManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Rigids\RigidType.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Rigids\SphereRigid.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Pendulum\PendulumLink.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Pendulum\PendulumManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Pendulum\PendulumService.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Rods\Rod.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Rods\RodJoint.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Rods\RodsManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\RopeRods\RopeOfRods.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\RopeRods\RopeOfRodsManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Springs\Spring.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Springs\SpringService.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Springs\SpringsManager.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\Springs\SpringType.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\TileSpring\TileSpringService.cs" />
+    <Compile Include="ProjectEngines\PhysicsEngine\Services\TileSpring\TileSpringServiceManager.cs" />
+    <Compile Include="ProjectEngines\Starters\StarterManager.cs" />
+    <Compile Include="ProjectEngines\StaticData.cs" />
+    <Compile Include="ProjectEngines\Starters\Tester.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Frog.png" />
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </Content>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\Image1.bmp" />
+    <Content Include="Resources\Level01.jpg" />
+    <Content Include="Resources\Level1New.jpg" />
+    <Content Include="Resources\pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CRUSTEngineContent\CRUSTEngineContent.contentproj">
+      <Name>CRUSTEngineContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\DatabaseLinq.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DatabaseLinq1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Database\DatabaseLinq.dbml.layout">
+      <DependentUpon>DatabaseLinq.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="FormsManipualtion\CRUSTLevelDesigner.resx">
+      <DependentUpon>CRUSTLevelDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsManipualtion\CTRLevelDesigner.resx">
+      <DependentUpon>CTRLevelDesigner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsManipualtion\GenSimTimeBar.resx">
+      <DependentUpon>GenSimTimeBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsManipualtion\SetGrammarDialog.resx">
+      <DependentUpon>SetGrammarDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsManipualtion\SetLevelDialog.resx">
+      <DependentUpon>SetLevelDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPath\PathForm.resx">
+      <DependentUpon>PathForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectEngines\PCGEngine\PlayabilityManagers\EntraPlay\Gui\EntraForm.resx">
+      <DependentUpon>EntraForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

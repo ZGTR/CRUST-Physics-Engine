@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="STYX-PCG" Class="DatabaseLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.PlayabilityTest" Member="PlayabilityTests">
+    <Type Name="PlayabilityTest">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Pattern" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Playability" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="PrologTime" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalTime" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClosestFCDistance" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="MaxDepthReached" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NodesExplored" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LevelString" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="NrOfActions" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BestActions" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

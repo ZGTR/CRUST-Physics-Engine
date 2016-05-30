@@ -1,0 +1,9 @@
+D:\Projects\CRUST\CRUST V3.0 - Oct 2013\AppKiller\bin\Debug\AppKiller.exe
+D:\Projects\CRUST\CRUST V3.0 - Oct 2013\AppKiller\bin\Debug\AppKiller.pdb
+D:\Projects\CRUST\CRUST V3.0 - Oct 2013\AppKiller\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\CRUST\CRUST V3.0 - Oct 2013\AppKiller\obj\x86\Debug\AppKiller.exe
+D:\Projects\CRUST\CRUST V3.0 - Oct 2013\AppKiller\obj\x86\Debug\AppKiller.pdb
+E:\Projects\CRUST\April 14 Version\CRUSTEngine\AppKiller\bin\Debug\AppKiller.exe
+E:\Projects\CRUST\April 14 Version\CRUSTEngine\AppKiller\bin\Debug\AppKiller.pdb
+E:\Projects\CRUST\April 14 Version\CRUSTEngine\AppKiller\obj\x86\Debug\AppKiller.exe
+E:\Projects\CRUST\April 14 Version\CRUSTEngine\AppKiller\obj\x86\Debug\AppKiller.pdb
