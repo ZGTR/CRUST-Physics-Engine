@@ -19,7 +19,7 @@
 <br/>CRUST has the capability to handle both: <strong>2D and 3D physics simulations</strong>. 
 
 
-<br/><strong>Does this contains Cut the Rope?</strong>
+<br/><strong>Does this contain Cut the Rope?</strong>
 <br/>YES! Go to <a href="https://www.youtube.com/channel/UCvJUfadMoEaZNWdagdMyCRA">Youtube Channel</a> and watch this engine running Cut the Rope.
 
 <br/><strong>Is this what you call Ropossum?</strong>
