@@ -33,7 +33,7 @@
 
 
 <br/><strong>Hierarchy and PAAS</strong>
-<br/>It's fun to call it. But I have build this engine with <strong>Physics-As-A-Service</strong> mentality. For instance, you can apply different services, effectors, forces, torques on the objects <i>independently</i>. The services doesn't know about each other and you can apply whatever you want, whatever the compination. You can always remove or add any service realtime. For instance, you can apply ropes to some rigid bodies and in a specific timestamp just remove the rope (spring) service and you have a free falling un-attached bodies. 
+<br/>It's fun to call it. But I have build this engine with <strong>Physics-As-A-Service</strong> mentality. For instance, you can apply different services, effectors, forces, torques on the objects <i>independently</i>. The services don't know about each other and you can apply whatever you want, whatever the compination. You can always remove or add any service realtime. For instance, you can apply ropes to some rigid bodies and in a specific timestamp just remove the rope (spring) service and you have a free falling un-attached bodies. 
 
 
 <br/><strong>Nice Perks</strong>
