@@ -4,6 +4,10 @@
 <br/>The graphic assets included here are property of Zeptolab, 2013. I only used them for illustration purposes. They were kind enough to give me the permission to do so and I thank them for that.
 
 
+<br/><strong>BIGGER Disclaimer</strong>
+<br/>Looking at the code now, it seems like a one year-old boy has written this. This is a pretty old code (back to end of 2012.) So my apologies for such badly written code (though, it does it jobs correctly.) It wasn't intended for public release and was only for research. I promise my other projects push to github would be clean and [not] mean.
+
+
 <br/><strong>Brief</strong>
 <br/>CRUST is the heart physics engine behind the Ropossum authoring tool for generating content for physics-based games (Cut the Rope).
 
