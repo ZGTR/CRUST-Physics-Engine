@@ -5,7 +5,7 @@
 
 
 <br/><strong>BIGGER Disclaimer</strong>
-<br/>Looking at the code now, it seems like a one year-old boy has written this. This is a pretty old code (back to end of 2012.) So my apologies for such badly written code (who uses enumeration for types when you have dictionaries or text files and not xmls of jsons!), though, it does it jobs correctly. It wasn't intended for public release, and I was a cuty young Shaker, and it was only for research. I promise my other projects push to github would be clean and [not] mean. And yes, awesome.
+<br/>Looking at the code now, it seems like a one year-old boy has written this. This is a pretty old code (back to end of 2012.) So my apologies for such badly written code (who uses enumeration for types when you have dictionaries?! or text files instead of xmls or jsons!), though, it does it jobs correctly. It wasn't intended for public release, and I was a cuty young Shaker, and it was only for research. I promise my other projects push to github would be clean and [not] mean. And yes, awesome.
 
 
 <br/><strong>Brief</strong>
